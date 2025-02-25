@@ -5,7 +5,7 @@
 #define BLUE_LED_PIN 12 //LED para menos de 50% de capacidade.
 #define RED_LED_PIN 13 //LED para menos de 75% de capacidade.
 #define BUTTON 5 //Botão que faz a porcentagem mudar.
-#define RESET_TIME 30000 // Tempo para reiniciar o volume (em milissegundos)
+#define RESET_TIME 10000 // Tempo para reiniciar o volume (em milissegundos)
 
 //função de estado cheio
 void volume_total(){
